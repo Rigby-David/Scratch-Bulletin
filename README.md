@@ -24,3 +24,36 @@ Additional considerations:
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+
+HTML Elements I'll need 
+-- Bulletin Page
+  - Sign up button
+  - Sign in Button
+  - Create note button
+  - Log out button
+  - Section/div to render divs of post its to the parent div
+
+-- Sign in/ Sign up page
+- main sections housing both sign in and sign up divs
+- sign up div
+- form
+- h2 sign up
+- label for input
+- email input
+- password input
+- submit button
+
+REPEAT for sign in div
+
+-- Create a note page
+- parent div
+ - container div
+  - label and title input
+  - label and description input
+  - label and contact input
+  - save button
+
+STATE to track
+- email/password
+- note page title, description, and contact
+
