@@ -13,7 +13,8 @@ export async function signUpUser(email, password) {
     return response.user;
 }
 
-export async function getPost() {
+export async function fetchPosts() {
     const response = await client.from('posts').select('*');
+    
     return response.data;
 }

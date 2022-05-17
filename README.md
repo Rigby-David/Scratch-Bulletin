@@ -49,9 +49,9 @@ const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 ## 2. Posts Page
 
--   [ ] TDD a render function for displaying your post information
--   [ ] Add your `fetchPosts` to `fetch-utils.js`
--   [ ] Add your policy for selecting data (allow all users)
+-   [x] TDD a render function for displaying your post information
+-   [x] Add your `fetchPosts` to `fetch-utils.js`
+-   [x] Add your policy for selecting data (allow all users)
 
 ```js
 export async function fetchPosts() {
@@ -63,7 +63,7 @@ export async function fetchPosts() {
 
 _Validation step: console.log your results to make sure you're getting the data back from the database_
 
--   [ ] Add an async `loadData` function that you will call immediately to load the data, loop through and render each item on the page
+-   [x] Add an async `loadData` function that you will call immediately to load the data, loop through and render each item on the page
 
 ## 3. Auth page
 
