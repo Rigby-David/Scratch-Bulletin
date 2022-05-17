@@ -59,12 +59,16 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    display: flex;
 }
 
 .gutter-right {
@@ -98,8 +102,9 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     height: 75vh;
-    width: 95vw;
+    width: 50vw;
     border: 5px solid black;
     overflow: scroll;
     background-image: url(../assets/background.jpg);
+    /* background-repeat: no-repeat; */
 }
