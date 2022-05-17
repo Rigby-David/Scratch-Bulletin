@@ -45,7 +45,7 @@ const SUPABASE_KEY = '';
 const client = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 ```
 
--   [ ] Add some rows for testing -[ ] Enable row level security
+-   [x] Add some rows for testing -[ ] Enable row level security
 
 ## 2. Posts Page
 

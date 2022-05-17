@@ -1,3 +1,4 @@
+import { getPost } from './fetch-utils.js';
 // import functions and grab DOM elements
 const signInButton = document.getElementById('sign-in');
 const createButton = document.getElementById('create');
