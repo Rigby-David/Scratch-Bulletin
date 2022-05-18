@@ -7,11 +7,13 @@ form.addEventListener('submit', async (e) => {
     const data = new FormData(form);
     const newPost = {
         title: data.get('title'),
-        description: data.get('description');
-        contact: data.get('contact');
+        description: data.get('description'),
+        contact: data.get('contact'),
     };
     const response = await createNewPost(newPost);
     console.log(response);
+
+    // location.replace('/');
 });
 
 checkAuth();
