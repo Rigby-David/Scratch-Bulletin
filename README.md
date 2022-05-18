@@ -78,8 +78,8 @@ _don't worry about redirects at first_
 
 ## 4. Create Page
 
--   [ ] Add your `create` folder, index.html, and create.js
--   [ ] Add a form for posts in your index.html
+-   [x] Add your `create` folder, index.html, and create.js
+-   [x] Add a form for posts in your index.html
 -   [ ] Add form event listener, use FormData to get your data from your form
         _Validation step: console.log your FormData to make sure you're getting the info correctly_
 -   [ ] Add `createPost` to your `fetch-utils.js`

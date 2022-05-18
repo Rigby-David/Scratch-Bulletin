@@ -32,3 +32,8 @@ export async function fetchPosts() {
     
     return response.data;
 }
+
+export async function createNewPost(post) {
+    const response = await client.from('posts').insert(post);
+    return response.data;
+}

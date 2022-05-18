@@ -1,0 +1,20 @@
+#post-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* margin: 5px; */
+    /* background: 5px solid rgb(249, 21, 4); */
+    padding: 1em;
+    background-color: coral;
+    width: 200px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+}
