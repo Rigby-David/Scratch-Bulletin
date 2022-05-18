@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Create</title>
+</head>
+<body>
+    <a href="/">Home</a>
+    <h1>Create disc</h1>
+        <form id="post-form">
+            <label for="title">
+                <div>Title</div>
+                <input type="text" name="title" id="title">
+            </label>
+                
+            <label for="description">
+                <div>Description</div>
+                <input type="text" name="description" id="description">
+            </label>
+
+            <label for="contact">
+                <div>Contact</div>
+                <input type="text" name="contact" id="contact">
+            </label>
+            <button>Submit</button>
+            <label for="select">
+                <div>Select disc</div>
+                <select id="discs">
+                    <option value="driver">Driver</option>
+                    <option value="midrange">Midrange</option>
+                    <option value="putter">Putter</option>
+                </select>
+            </label>
+            </form>
+    <script type="module" src="./create.js"></script>
+</body>
+</html>
