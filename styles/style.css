@@ -105,6 +105,16 @@ footer {
     width: 50vw;
     border: 5px solid black;
     overflow: scroll;
-    background-image: url(../assets/background.jpg);
+    /* background-image: url(../assets/background.jpg); */
     /* background-repeat: no-repeat; */
+}
+
+.post-detail {
+    color: black;
+    height: 10em;
+    width: 10em;
+    /* padding: 1em; */
+    margin: 5px;
+    background-color: yellow;
+
 }

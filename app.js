@@ -1,10 +1,11 @@
-import { fetchPosts, logout } from './fetch-utils.js';
+import { fetchPosts, logout, getUser } from './fetch-utils.js';
 import { renderPostList } from './render-utils.js';
 
 // import functions and grab DOM elements
 const signInButton = document.getElementById('sign-in');
 const createButton = document.getElementById('create');
 const postListEl = document.getElementById('post-list');
+const bulletinBoard = document.getElementById('bulletin-board');
 const logoutButton = document.getElementById('logout-button');
 // let state
 
@@ -22,8 +23,11 @@ logoutButton.addEventListener('click', async () => {
 });
 
 async function loadData() {
-    const data = await fetchPosts();
-    console.log(data);
+    const posts = await fetchPosts();
+    for (let post of posts) {
+        const postDiv = renderPostList(post);
+        bulletinBoard.append(postDiv);
+    }
 }
 
 loadData();

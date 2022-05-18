@@ -82,7 +82,7 @@ _don't worry about redirects at first_
 -   [x] Add a form for posts in your index.html
 -   [ ] Add form event listener, use FormData to get your data from your form
         _Validation step: console.log your FormData to make sure you're getting the info correctly_
--   [ ] Add `createPost` to your `fetch-utils.js`
+-   [x] Add `createPost` to your `fetch-utils.js`
 
 ```js
 export async function createNewPost(post) {

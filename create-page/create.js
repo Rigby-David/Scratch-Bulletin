@@ -13,7 +13,8 @@ form.addEventListener('submit', async (e) => {
     const response = await createNewPost(newPost);
     console.log(response);
 
-    // location.replace('/');
+    location.replace('/');
+    
 });
 
 checkAuth();
